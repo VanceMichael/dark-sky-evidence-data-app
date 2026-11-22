@@ -1,0 +1,3 @@
+path,zone,low_lux,normal_lux,emergency_min_lux
+W,west,2.2,4.4,2.0
+E,east,1.7,4.1,2.4

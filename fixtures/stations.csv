@@ -1,0 +1,5 @@
+station,zone,affected_paths,calibration,night_min_readings
+S1,west,W|E,C01,2
+S2,east,E,C02,2
+S3,edge,W,C03,2
+S4,ref,-,C04,2

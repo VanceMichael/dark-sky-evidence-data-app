@@ -1,0 +1,6 @@
+calibration,revision,known_night,first_night,last_night,valid
+C01,1,0,1,40,true
+C02,1,0,1,40,true
+C03,1,0,1,40,true
+C04,1,0,1,40,true
+C04,2,5,2,4,false

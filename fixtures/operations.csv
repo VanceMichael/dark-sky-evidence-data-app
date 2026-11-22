@@ -1,0 +1,3 @@
+zone,path,minimum,patrol_coverage,signed_window,signed_night
+west,W,low,full,W1,4
+east,E,normal,partial,-,-

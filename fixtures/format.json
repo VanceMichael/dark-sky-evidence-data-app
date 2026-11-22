@@ -1,0 +1,100 @@
+{
+  "tables": {
+    "stations": [
+      "station",
+      "zone",
+      "affected_paths",
+      "calibration",
+      "night_min_readings"
+    ],
+    "windows": [
+      "window",
+      "night",
+      "start",
+      "zone",
+      "planned",
+      "actual",
+      "weather",
+      "moon",
+      "interruption"
+    ],
+    "matches": [
+      "left_window",
+      "right_window",
+      "max_moon_gap"
+    ],
+    "calibration": [
+      "calibration",
+      "revision",
+      "known_night",
+      "first_night",
+      "last_night",
+      "valid"
+    ],
+    "operations": [
+      "zone",
+      "path",
+      "minimum",
+      "patrol_coverage",
+      "signed_window",
+      "signed_night"
+    ],
+    "readings": [
+      "window",
+      "station",
+      "minute",
+      "mag_arcsec2"
+    ],
+    "season": [
+      "night",
+      "season",
+      "observation_zone",
+      "min_safety_lux"
+    ],
+    "paths": [
+      "path",
+      "zone",
+      "low_lux",
+      "normal_lux",
+      "emergency_min_lux"
+    ]
+  },
+  "links": [
+    [
+      "readings",
+      "station",
+      "stations",
+      "station"
+    ],
+    [
+      "readings",
+      "window",
+      "windows",
+      "window"
+    ],
+    [
+      "matches",
+      "left_window",
+      "windows",
+      "window"
+    ],
+    [
+      "matches",
+      "right_window",
+      "windows",
+      "window"
+    ],
+    [
+      "stations",
+      "calibration",
+      "calibration",
+      "calibration"
+    ],
+    [
+      "windows",
+      "night",
+      "season",
+      "night"
+    ]
+  ]
+}
