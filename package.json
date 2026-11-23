@@ -8,6 +8,9 @@
   },
   "scripts": {
     "test": "node --test",
-    "check:materials": "node tools/check-materials.mjs"
+    "check:materials": "node tools/check-materials.mjs",
+    "review": "node bin/review.mjs review",
+    "scenario": "node bin/review.mjs scenario",
+    "ledger": "node bin/review.mjs ledger"
   }
 }
